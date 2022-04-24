@@ -1,0 +1,384 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C_Small C1
+U 1 1 622F52E1
+P 2950 3650
+F 0 "C1" H 3042 3696 50  0000 L CNN
+F 1 "22u" H 3042 3605 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" H 2950 3650 50  0001 C CNN
+F 3 "~" H 2950 3650 50  0001 C CNN
+	1    2950 3650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R6
+U 1 1 62302297
+P 5850 4950
+F 0 "R6" H 5920 4996 50  0000 L CNN
+F 1 "2.2k" H 5920 4905 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 5780 4950 50  0001 C CNN
+F 3 "~" H 5850 4950 50  0001 C CNN
+	1    5850 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R5
+U 1 1 62302CE9
+P 5850 2600
+F 0 "R5" H 5920 2646 50  0000 L CNN
+F 1 "2.2k" H 5920 2555 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 5780 2600 50  0001 C CNN
+F 3 "~" H 5850 2600 50  0001 C CNN
+	1    5850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 623032BE
+P 2400 4200
+F 0 "R2" H 2470 4246 50  0000 L CNN
+F 1 "2.2k" H 2470 4155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 2330 4200 50  0001 C CNN
+F 3 "~" H 2400 4200 50  0001 C CNN
+	1    2400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 623038EB
+P 2400 3500
+F 0 "R1" H 2470 3546 50  0000 L CNN
+F 1 "2.2k" H 2470 3455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 2330 3500 50  0001 C CNN
+F 3 "~" H 2400 3500 50  0001 C CNN
+	1    2400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R7
+U 1 1 62303F89
+P 7600 2450
+F 0 "R7" H 7670 2496 50  0000 L CNN
+F 1 "100" H 7670 2405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7530 2450 50  0001 C CNN
+F 3 "~" H 7600 2450 50  0001 C CNN
+	1    7600 2450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 6230443F
+P 7650 5100
+F 0 "R8" H 7720 5146 50  0000 L CNN
+F 1 "100" H 7720 5055 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 7580 5100 50  0001 C CNN
+F 3 "~" H 7650 5100 50  0001 C CNN
+	1    7650 5100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 62304C05
+P 3400 4200
+F 0 "R4" H 3470 4246 50  0000 L CNN
+F 1 "3.9k" H 3470 4155 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 3330 4200 50  0001 C CNN
+F 3 "~" H 3400 4200 50  0001 C CNN
+	1    3400 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 6230525D
+P 3400 3500
+F 0 "R3" H 3470 3546 50  0000 L CNN
+F 1 "3.9k" H 3470 3455 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P2.54mm_Vertical" V 3330 3500 50  0001 C CNN
+F 3 "~" H 3400 3500 50  0001 C CNN
+	1    3400 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J2
+U 1 1 62308DB6
+P 3900 2800
+F 0 "J2" V 3864 2880 50  0000 L CNN
+F 1 "Set_Gain" V 3773 2880 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 3900 2800 50  0001 C CNN
+F 3 "~" H 3900 2800 50  0001 C CNN
+	1    3900 2800
+	0    1    -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J3
+U 1 1 6230B67F
+P 4650 2950
+F 0 "J3" V 4614 2762 50  0000 R CNN
+F 1 "Audio_Out" V 4523 2762 50  0000 R CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 4650 2950 50  0001 C CNN
+F 3 "~" H 4650 2950 50  0001 C CNN
+	1    4650 2950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 6230BE33
+P 10900 3800
+F 0 "J4" H 10980 3792 50  0000 L CNN
+F 1 "Power" H 10980 3701 50  0000 L CNN
+F 2 "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical" H 10900 3800 50  0001 C CNN
+F 3 "~" H 10900 3800 50  0001 C CNN
+	1    10900 3800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x03 J1
+U 1 1 6230C09C
+P 1250 3850
+F 0 "J1" H 1168 4167 50  0000 C CNN
+F 1 "Capsule" H 1168 4076 50  0000 C CNN
+F 2 "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical" H 1250 3850 50  0001 C CNN
+F 3 "~" H 1250 3850 50  0001 C CNN
+	1    1250 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:NMA0515SC U2
+U 1 1 6230EDF8
+P 8700 3850
+F 0 "U2" H 8700 4317 50  0000 C CNN
+F 1 "NMA0515SC" H 8700 4226 50  0000 C CNN
+F 2 "Converter_DCDC:Converter_DCDC_muRata_NMAxxxxSC_THT" H 8700 3500 50  0001 C CIN
+F 3 "http://power.murata.com/data/power/ncl/kdc_nma.pdf" H 8700 3850 50  0001 C CNN
+	1    8700 3850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 6231D988
+P 2950 4050
+F 0 "C2" H 3042 4096 50  0000 L CNN
+F 1 "22u" H 3042 4005 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" H 2950 4050 50  0001 C CNN
+F 3 "~" H 2950 4050 50  0001 C CNN
+	1    2950 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 6231DE7D
+P 4750 3400
+F 0 "C3" H 4842 3446 50  0000 L CNN
+F 1 "22u" H 4842 3355 50  0000 L CNN
+F 2 "Capacitor_THT:C_Radial_D6.3mm_H11.0mm_P2.50mm" H 4750 3400 50  0001 C CNN
+F 3 "~" H 4750 3400 50  0001 C CNN
+	1    4750 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C6
+U 1 1 6231E73D
+P 9500 3850
+F 0 "C6" H 9618 3896 50  0000 L CNN
+F 1 "2200u" H 9618 3805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P2.50mm" H 9538 3700 50  0001 C CNN
+F 3 "~" H 9500 3850 50  0001 C CNN
+	1    9500 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C7
+U 1 1 6231EC9A
+P 10050 3850
+F 0 "C7" H 10168 3896 50  0000 L CNN
+F 1 "2200u" H 10168 3805 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P2.50mm" H 10088 3700 50  0001 C CNN
+F 3 "~" H 10050 3850 50  0001 C CNN
+	1    10050 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 3850 7950 3850
+Text GLabel 7950 3850 0    50   Input ~ 0
+GND
+Wire Wire Line
+	10700 3650 10050 3650
+Wire Wire Line
+	10700 4050 10050 4050
+Wire Wire Line
+	10050 4050 10050 4000
+Connection ~ 10050 4050
+Wire Wire Line
+	10050 4050 9500 4050
+Wire Wire Line
+	10050 3650 10050 3700
+Connection ~ 10050 3650
+Wire Wire Line
+	10050 3650 9500 3650
+Wire Wire Line
+	9500 3650 9500 3700
+Connection ~ 9500 3650
+Wire Wire Line
+	9500 3650 9200 3650
+Wire Wire Line
+	9500 4000 9500 4050
+Connection ~ 9500 4050
+Wire Wire Line
+	9500 4050 9200 4050
+$Comp
+L Device:CP C4
+U 1 1 6231E2D2
+P 6350 2600
+F 0 "C4" H 6468 2646 50  0000 L CNN
+F 1 "2200u" H 6468 2555 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P2.50mm" H 6388 2450 50  0001 C CNN
+F 3 "~" H 6350 2600 50  0001 C CNN
+	1    6350 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP C5
+U 1 1 622F6F8E
+P 6350 4950
+F 0 "C5" H 6468 4996 50  0000 L CNN
+F 1 "2200u" H 6468 4905 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D12.5mm_P2.50mm" H 6388 4800 50  0001 C CNN
+F 3 "~" H 6350 4950 50  0001 C CNN
+	1    6350 4950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 5100 7800 5100
+Wire Wire Line
+	7450 2450 6350 2450
+Wire Wire Line
+	7500 5100 6350 5100
+Wire Wire Line
+	6350 5100 5850 5100
+Connection ~ 6350 5100
+Wire Wire Line
+	5850 5100 4350 5100
+Connection ~ 5850 5100
+Wire Wire Line
+	5850 3850 6350 3850
+Connection ~ 5850 3850
+Connection ~ 6350 3850
+Wire Wire Line
+	6350 3850 6450 3850
+Text GLabel 6450 3850 2    50   Input ~ 0
+GND
+Wire Wire Line
+	4050 3950 3800 3950
+Wire Wire Line
+	4050 4050 3400 4050
+Connection ~ 3400 3650
+Wire Wire Line
+	3400 3650 3050 3650
+Connection ~ 3400 4050
+Wire Wire Line
+	3400 4050 3050 4050
+Wire Wire Line
+	3400 3350 3400 3250
+Wire Wire Line
+	3400 4350 3400 4450
+$Comp
+L Audio2:THAT1512 U1
+U 1 1 6239437C
+P 4600 3600
+F 0 "U1" H 4794 3396 50  0000 L CNN
+F 1 "THAT1512" H 4794 3305 50  0000 L CNN
+F 2 "Package_DIP:DIP-8_W7.62mm_Socket" H 4550 3600 50  0001 C CNN
+F 3 "" H 4550 3600 50  0001 C CNN
+	1    4600 3600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 3650 4050 3650
+Wire Wire Line
+	3800 3950 3800 3000
+Wire Wire Line
+	4050 3750 3900 3750
+Wire Wire Line
+	3900 3750 3900 3000
+Text GLabel 4550 4150 2    50   Input ~ 0
+GND
+Text GLabel 3400 3250 0    50   Input ~ 0
+GND
+Text GLabel 3400 4450 0    50   Input ~ 0
+GND
+Wire Wire Line
+	8200 3650 8200 2450
+Wire Wire Line
+	7750 2450 8200 2450
+Wire Wire Line
+	4350 2450 4350 3450
+Wire Wire Line
+	8200 4050 8200 5100
+Wire Wire Line
+	6350 3850 6350 4800
+Connection ~ 5850 2450
+Connection ~ 6350 2450
+Wire Wire Line
+	5850 2450 6350 2450
+Wire Wire Line
+	4350 2450 5850 2450
+Wire Wire Line
+	6350 2750 6350 3850
+Wire Wire Line
+	5850 2750 5850 3850
+Wire Wire Line
+	5850 3850 5850 4800
+Wire Wire Line
+	4350 4250 4350 5100
+Wire Wire Line
+	4350 5100 2400 5100
+Wire Wire Line
+	2400 5100 2400 4350
+Connection ~ 4350 5100
+Wire Wire Line
+	4350 2450 2400 2450
+Wire Wire Line
+	2400 2450 2400 3350
+Connection ~ 4350 2450
+Wire Wire Line
+	1450 3850 1600 3850
+Text GLabel 1600 3850 2    50   Input ~ 0
+GND
+Wire Wire Line
+	2850 4050 2400 4050
+Wire Wire Line
+	1450 4050 1450 3950
+Connection ~ 2400 4050
+Wire Wire Line
+	2400 4050 1450 4050
+Wire Wire Line
+	2400 3650 1450 3650
+Wire Wire Line
+	1450 3650 1450 3750
+Wire Wire Line
+	4750 3750 4750 3500
+Wire Wire Line
+	4750 3150 4750 3300
+Wire Wire Line
+	4650 3150 4650 3250
+Text GLabel 4650 3250 0    50   Input ~ 0
+GND
+Wire Wire Line
+	10700 3650 10700 3800
+Wire Wire Line
+	10700 3900 10700 4050
+$EndSCHEMATC
